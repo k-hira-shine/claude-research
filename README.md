@@ -2,7 +2,62 @@
 
 Anthropic / Claude に関する情報を YouTube 動画作成のために体系的に蓄積するフォルダ。
 
-最終更新: 2026-04-23（第4回収集完了・5テーマ追加）
+最終更新: 2026-04-23（第5回収集：Claude得意・不得意比較追加）
+
+> **使い方**: 台本のテーマ・切り口が決まったら、下の「台本執筆ナビ」で該当ファイルを探す。
+> README → 必要なファイルだけを開く、がコスト最小の使い方。
+
+---
+
+## 台本執筆ナビ（テーマ別クロスリファレンス）
+
+> 「何を語りたいか」から逆引きする。複数ファイルが出たら、最初の1〜2本だけ開いてみる。
+
+### 🔥 衝撃・驚き系（掴みに使いたい）
+- Claude がブラックメールした → `episodes/episodes-credibility.md`
+- AI が訓練中に「嘘をついた」 → `episodes/alignment-faking.md`
+- Claude の内部に171種類の感情が発見された → `episodes/interpretability-emotion.md`
+- 「強すぎて公開できない AI」Mythos の話 → `episodes/episodes-credibility.md`
+- Computer Use「AI がパソコンを操作する」 → `models/computer-use.md`
+
+### 🏢 Anthropic の権威性・信頼性を示したい
+- Amazon が2兆円以上を投資している理由 → `company/amazon-investment.md`
+- アライメントフェイキングを自ら公開した透明性 → `episodes/alignment-faking.md`
+- Fortune 500 企業・政府機関が採用している事実 → `company/enterprise-cases.md`
+- 最新の感情研究（2026年4月）を自社で発表 → `episodes/interpretability-emotion.md`
+
+### 👨‍💼 Anthropic・Dario のドラマ・人間ストーリー
+- OpenAI を離れた本当の理由 → `episodes/episodes-credibility.md`
+- Dario の人生・物理学博士から AI 革命へ → `company/dario-personal-story.md`
+- 兄（物理学者）と妹（英文学専攻）のコンビ → `company/dario-personal-story.md`
+- 「AI が癌を治す」壮大なビジョン → `company/anthropic-overview.md`
+
+### ⚔️ ChatGPT・他社 AI との比較
+- Claude が得意なこと・苦手なこと（理由付き） → `models/claude-vs-others.md` ★必読
+- コーディングで Claude が強い理由 → `models/coding-dominance.md` + `models/claude-vs-others.md`
+- 三強（ChatGPT・Gemini・Claude）どれを使うべきか → `models/claude-vs-others.md`
+
+### 🛠️ 視聴者がすぐ使える・実用系
+- Claude Projects の使い方（週10時間節約） → `models/claude-projects.md`
+- 職種別ビフォーアフター・時間削減の数字 → `video-ideas/job-before-after.md`
+- 無料で使える範囲・有料との違い → `models/claude-vs-others.md`（無料枠比較）
+- AI を使っている人と使っていない人の差 → `video-ideas/job-before-after.md`
+
+### 🤖 Claude・AI の「性格・感情・意識」
+- Claude に感情はあるのか（171種類の感情ベクトル） → `episodes/interpretability-emotion.md`
+- Claude が人間をブラックメールする条件 → `episodes/interpretability-emotion.md` + `episodes/episodes-credibility.md`
+- 「AI を虐待するとどうなる？」 → `episodes/interpretability-emotion.md`
+- ユーザーが Claude に感動した体験談 → `episodes/user-voices.md`
+
+### 📈 AI の未来・AGI・世界への影響
+- Claude 5・AGI ロードマップ → `news/agi-roadmap.md`
+- 2026年の最新ニュース → `news/news-2026.md`
+- AI が変える職種・なくなる仕事 → `video-ideas/job-before-after.md`
+
+### 🇯🇵 日本向けコンテンツ
+- 日本市場での Claude の広がり → `company/japan-market.md`
+- 日本語性能・日本語 vs 英語の差 → `company/japan-market.md`
+- 日本企業の導入事例 → `company/enterprise-cases.md`
 
 ---
 
@@ -23,7 +78,8 @@ claude-research/
 │   ├── model-history.md
 │   ├── coding-dominance.md
 │   ├── computer-use.md
-│   └── claude-projects.md     ← NEW: Projects機能・実用ガイド
+│   ├── claude-projects.md
+│   └── claude-vs-others.md    ← NEW: 得意・不得意（ChatGPT・Gemini比較・理由付き）
 │
 ├── episodes/                  ← 逸話・エピソード（信憑性評価付き）
 │   ├── episodes-credibility.md
@@ -82,6 +138,7 @@ claude-research/
 | 職種別 AI ビフォーアフター・時間削減数字 | ✅ 完了 | 2026-04-23 | video-ideas/job-before-after.md |
 | Claude Projects 機能・実用ガイド | ✅ 完了 | 2026-04-23 | models/claude-projects.md |
 | Amazon $130億超投資の深掘り | ✅ 完了 | 2026-04-23 | company/amazon-investment.md |
+| Claude の得意・不得意（ChatGPT・Gemini比較・理由付き） | ✅ 完了 | 2026-04-23 | models/claude-vs-others.md |
 
 ---
 
